@@ -2,6 +2,7 @@ package x12_test
 
 import (
 	"fmt"
+	"github.com/apxamccallum/x12"
 	"io"
 	"os"
 	"path/filepath"
@@ -10,7 +11,6 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/tmc/x12"
 )
 
 func TestDecode(t *testing.T) {

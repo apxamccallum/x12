@@ -4,10 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/apxamccallum/x12"
 	"os"
 	"strings"
-
-	"github.com/tmc/x12"
 )
 
 type Input struct {
